@@ -1,0 +1,30 @@
+gtk-titlebar = false
+theme = Dracula
+font-family = "OpenDyslexicM Nerd Font Mono"
+font-size = 16
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+mouse-hide-while-typing
+mouse-scroll-multiplier = 10
+link-url = true
+link-previews = true
+
+window-padding-y = 0
+window-height = 12
+window-width = 180
+clipboard-paste-protection = true
+
+keybind = alt+h=goto_split:left
+keybind = alt+l=goto_split:right
+keybind = alt+k=goto_split:up
+keybind = alt+j=goto_split:down
+
+keybind = ctrl+alt+h=new_split:left
+keybind = ctrl+alt+l=new_split:right
+keybind = ctrl+alt+k=new_split:up
+keybind = ctrl+alt+j=new_split:down
+
+keybind = alt+q=close_surface
+
+keybind = alt+t=new_tab
