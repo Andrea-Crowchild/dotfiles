@@ -1,7 +1,7 @@
 gtk-titlebar = false
 theme = Dracula
 font-family = "OpenDyslexicM Nerd Font Mono"
-font-size = 16
+font-size = 14
 cursor-style = block
 cursor-style-blink = false
 shell-integration-features = no-cursor
@@ -28,3 +28,8 @@ keybind = ctrl+alt+j=new_split:down
 keybind = alt+q=close_surface
 
 keybind = alt+t=new_tab
+
+keybind = ctrl+shift+c=copy_to_clipboard
+keybind = ctrl+shift+v=paste_from_clipboard
+
+gtk-tabs-location = hidden
