@@ -14,7 +14,7 @@ tiling_drag modifier
 # ── Startup ──────────────────────────────────────────────────────────────────
 # Compositor
 exec --no-startup-id picom --daemon
-
+exec --no-startup-id xfce4-clipman
 # Wallpaper
 exec --no-startup-id feh --bg-scale ~/pictures/wallpaper/second-collection/illustrations/cat-and-bats/dracula-cat-282a36.png
 
