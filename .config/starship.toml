@@ -223,7 +223,7 @@ symbol = " "
 [purescript]
 symbol = " "
 [python]
-symbol = " "
+symbol = "󰌠"
 [raku]
 symbol = "󱖊 "
 [red]
