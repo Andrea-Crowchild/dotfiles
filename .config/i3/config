@@ -24,8 +24,8 @@ exec --no-startup-id xrdb -merge ~/.Xresources
 
 # Input devices (touchpad tap-to-click, touchpad speed, trackpoint speed)
 exec --no-startup-id xinput set-prop 10 317 1
-exec --no-startup-id xinput set-prop 10 339 0.7
-exec --no-startup-id xinput set-prop 11 339 0.8
+exec --no-startup-id xinput set-prop 10 339 0.6
+exec --no-startup-id xinput set-prop 11 339 0.9
 exec --no-startup-id xsetroot -cursor_name left_ptr
 # Tiling helper
 exec_always --no-startup-id autotiling
@@ -69,6 +69,7 @@ bindsym $mod+Print exec --no-startup-id maim -s ~/pictures/screenshots/$(date +%
 bindsym $mod+Shift+l exec --no-startup-id i3lock -c 282a36
 bindsym $mod+Shift+s exec --no-startup-id i3lock -c 282a36 && systemctl suspend
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Exit i3?' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+p exec --no-startup-id shutdown now
 
 # ── Window Management ────────────────────────────────────────────────────────
 floating_modifier $mod
