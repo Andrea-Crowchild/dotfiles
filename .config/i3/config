@@ -59,6 +59,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 # ── Applications ─────────────────────────────────────────────────────────────
 bindsym $mod+Return exec ghostty
 bindsym $mod+d exec rofi -show drun
+bindsym $mod+Tab exec --no-startup-id rofi -show window
 bindsym $mod+e exec thunar
 
 # ── Screenshots ──────────────────────────────────────────────────────────────
