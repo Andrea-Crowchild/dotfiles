@@ -1,6 +1,8 @@
 gtk-titlebar = false
 theme = Dracula
 font-family = "OpenDyslexicM Nerd Font Mono"
+font-family = "JetBrainsMono Nerd Font Mono"
+font-family = "Symbols Nerd Font"
 font-size = 14
 cursor-style = block
 cursor-style-blink = false
@@ -33,3 +35,4 @@ keybind = ctrl+shift+c=copy_to_clipboard
 keybind = ctrl+shift+v=paste_from_clipboard
 
 gtk-tabs-location = hidden
+
