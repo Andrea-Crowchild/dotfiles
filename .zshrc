@@ -29,6 +29,9 @@ export PATH="$HOME/bin:$PATH"
 # ── Vi mode ──────────────────────────────────────────────────────────────────
 bindkey -v
 
+# Joplin Token
+export JOPLIN_TOKEN="4f13914f17c688fca7365660d85d3b60627aff72c5f6607ff6f71fab93d48883d62ce6a95cad2ed21d05af9c92d0a84ae0b58acf6e113b04a9cfe86aae690e98"
+
 # Block cursor in normal mode, line cursor in insert mode
 function zle-keymap-select {
   if [[ $KEYMAP == vicmd ]]; then

@@ -1,0 +1,52 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "completions": {
+    "lsp": true
+  },
+  "agent": {
+    "favorite_models": [],
+    "play_sound_when_agent_done": "when_hidden",
+    "model_parameters": []
+  },
+  "indent_guides": {
+    "coloring": "indent_aware",
+    "background_coloring": "indent_aware"
+  },
+  "minimum_contrast_for_highlights": 106.0,
+  "agent_ui_font_size": 20.0,
+  "auto_update": false,
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "agent_servers": {
+    "opencode": {
+      "type": "registry"
+    },
+    "kilo": {
+      "type": "registry"
+    }
+  },
+  "ui_font_family": "OpenDyslexicM Nerd Font",
+  "buffer_font_family": "OpenDyslexicM Nerd Font Mono",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "icon_theme": "Colored Zed Icons Theme Dark",
+  "ui_font_size": 16,
+  "buffer_font_size": 20.0,
+  "theme": "Dracula Solid",
+  "show_edit_predictions": false,
+  "vim_mode":true
+}
+
+
+
+"min_line_number_digits": 2

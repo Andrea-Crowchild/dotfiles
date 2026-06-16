@@ -1,0 +1,2 @@
+#!/bin/bash
+git log --numstat | awk 'NF==3 {added+=$1; deleted+=$2} END {print "Added: "added" Deleted: "deleted}'

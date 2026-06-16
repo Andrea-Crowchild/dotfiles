@@ -1,0 +1,39 @@
+[commands]
+[commands.dw]
+description = "Deletes entire word"
+
+[commands."^z fg"]
+description = "Control z suspends nvim, fg in the terminal brings it back"
+
+[commands."gg=G"]
+description = "Reindents the entire file"
+
+[commands."vi{"]
+description = "Select everything within a set of curly braces"
+
+[commands.":mksession session.vim"]
+description = "Save a vim session"
+
+[commands."source session.vim"]
+description = "Open a saved session"
+
+[commands.gx]
+description = "Opens url under cursor"
+
+[commands.gf]
+description = "Open file path under cursor"
+
+[commands.ma]
+description = "Make mark 'a', 'a returns to it"
+
+[commands."di("]
+description = "Deletes everything inside of parentheses"
+
+[commands."ci\""]
+description = "Changes everything between the quotation marks"
+
+[commands."gsr[("]
+description = "Replace surrounding square brackets with parentheses"
+
+[commands.":let @+ = @a"]
+description = "Copy register + into register a"

@@ -1,0 +1,54 @@
+[commands]
+[commands."rustup doc --book"]
+description = "Open the Rust doc"
+
+[commands."ifconfig wlp0s20f3 up/down"]
+description = "enable/disable wifi"
+
+[commands.yazi]
+description = "Terminal file manager"
+
+[commands.ncdu]
+description = "Disk usage analyzer"
+
+[commands.lazygit]
+description = "Terminal git manager"
+
+[commands.fastfetch]
+description = "System information tool"
+
+[commands."jrnl -n 10"]
+description = "Shows the last ten entrys in the jrnl file"
+
+[commands."jrnl -month 08"]
+description = "Shows entries by month"
+
+[commands."curl wttr.in/pittsburgh"]
+description = "Weather in the terminal"
+
+[commands.faker]
+description = "Makes fake/dummy data"
+
+[commands.grex]
+description = "Generates regular expressions based on user strings"
+
+[commands."echo $PATH"]
+description = "Show full path information."
+
+[commands.pwd]
+description = "Print working directory"
+
+[commands.zoxide]
+description = "Better than cd!"
+
+[commands.fc-list]
+description = "Show fonts on system"
+
+[commands.seize]
+description = "Seize control of the keyboard from x11 with alt+SysRq+R"
+
+[commands."whence -pm"]
+description = "Searchable list of commands"
+
+[commands."swapon -a"]
+description = "Turns the swap file on, swapoff -a also works"
