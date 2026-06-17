@@ -16,7 +16,7 @@ tiling_drag modifier
 exec --no-startup-id picom --daemon
 exec --no-startup-id xfce4-clipman
 # Wallpaper
-exec --no-startup-id feh --bg-scale ~/pictures/wallpaper/second-collection/illustrations/cat-and-bats/dracula-cat-282a36.png
+exec_always --no-startup-id feh --bg-scale ~/pictures/wallpaper/dracula-galaxy-edited.png
 
 # DPI / Xresources
 exec --no-startup-id xrandr --dpi 120
